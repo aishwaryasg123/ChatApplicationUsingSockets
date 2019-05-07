@@ -2,7 +2,7 @@ package javaSockets;
 import java.io.*;
 import java.net.*;
 
-public class SocketClient {
+public class Client {
 	public static void main(String[] args) throws IOException {
 	Socket s=new Socket("localhost" ,6666);
 	DataInputStream din=new DataInputStream (s.getInputStream());
