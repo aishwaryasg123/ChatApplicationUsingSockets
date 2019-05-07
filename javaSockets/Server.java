@@ -2,7 +2,7 @@ package javaSockets;
 import java.io.*;
 import java.net.*;
 
-public class SocketServer {
+public class Server {
 
 	public static void main(String[] args) throws IOException {
 		ServerSocket ss=new ServerSocket(6666);
